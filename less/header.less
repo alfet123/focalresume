@@ -1,0 +1,73 @@
+/******************/
+/***   HEADER   ***/
+/******************/
+
+.header {
+  padding: 14px 210px;
+  background-color: @color-normal;
+}
+
+.logo {
+  float: left;
+
+  &__litera {
+    float: left;
+    margin-right: 18px;
+    width: 42px;
+    height: 42px;
+
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+    background-color: @color-bright;
+  }
+
+  &__name {
+    float: left;
+    width: 100px;
+
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    &--tail {
+      color: @color-mark;
+    }
+  }
+}
+
+.menu {
+  float: right;
+  padding: 6px 0;
+
+  &__item {
+    margin-right: 38px;
+
+    &--last {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    &:hover {
+      color: @color-mark;
+    }
+  }
+}
