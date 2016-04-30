@@ -1,0 +1,83 @@
+/******************/
+/***   RESUME   ***/
+/******************/
+
+.resume {
+
+  &__head {
+    position: relative;
+    padding-top: 95px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: @color-light;
+  }
+
+  &__head-title {
+    margin-bottom: 40px;
+
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #566366;
+  }
+
+  &__head-text {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 1030px;
+
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: none;
+
+    color: #919191;
+  }
+
+  &__head-btn {
+    margin: 0 auto;
+    padding: 14px 0;
+    width: 210px;
+
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: @color-mark;
+    border: 2px solid @color-mark;
+  }
+
+  &__decor {
+    position: absolute;
+    margin-left: -30px;
+    width: 0;
+    height: 0;
+    left: 50%;
+    bottom: -20px;
+    border-top: 20px solid @color-light;
+    border-right: 30px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 30px solid transparent;
+  }
+
+  &__content {
+    padding: 0 210px;
+  }
+
+  &__column {
+    float: left;
+    margin-right: 60px;
+    width: 560px;
+
+    &--last {
+      margin-right: 0;
+    }
+  }
+}
