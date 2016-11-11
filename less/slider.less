@@ -3,8 +3,9 @@
 /******************/
 
 .slider {
-  padding-top: 500px;
-  height: 500px;
+  position: relative;
+  padding-top: 502px;
+  height: 498px;
   text-align: center;
   background: #625d5a url('../img/bg.jpg');
 
@@ -41,6 +42,26 @@
     &:hover {
       background-color: rgba(0, 0, 0, 0.2);
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+    }
+  }
+
+  &__controls {
+    position: absolute;
+    right: 211px;
+    bottom: 51px;
+  }
+
+  &__circle {
+    margin-bottom: 9px;
+
+    width: 7px;
+    height: 7px;
+
+    border: 2px solid #fefefe;
+    border-radius: 50%;
+
+    &--active {
+      background-color: #fefefe;
     }
   }
 }
