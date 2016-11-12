@@ -9,6 +9,7 @@
 <body>
   <div class="container">
 
+
     <div class="slider">
       <h1 class="slider__title">Web &amp; Graphic Designer</h1>
       <a class="slider__btn" href="#">Learn more</a>
@@ -18,6 +19,7 @@
         <div class="slider__circle"></div>
       </div>
     </div>
+
 
     <header class="header  clearfix">
       <a class="logo  clearfix" href="#">
@@ -35,6 +37,7 @@
       </ul>
     </header>
 
+
     <div class="areas  clearfix">
       <div class="areas__item">
         <h2 class="areas__title">Values</h2>
@@ -49,6 +52,7 @@
         <p class="areas__text">Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.</p>
       </div>
     </div>
+
 
     <div class="about  clearfix">
       <img class="about__img" src="img/photo-1.jpg" alt="My photo" width="610" height="754">
@@ -80,6 +84,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="skills  clearfix">
       <div class="skills__info">
@@ -115,6 +120,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="resume">
       <div class="resume__head">
@@ -185,6 +191,7 @@
       </div>
     </div>
 
+
     <div class="testimonials">
       <p class="testimonials__text">&ldquo;Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.&rdquo;</p>
       <h4 class="testimonials__author">John Stone</h4>
@@ -194,6 +201,7 @@
         <div class="testimonials__circle"></div>
       </div>
     </div>
+
 
     <div class="portfolio">
       <h2 class="portfolio__title">Portfolio</h2>
@@ -261,32 +269,36 @@
       </div>
     </div>
 
-    <div class="contact">
-      <div class="contact__info">
-        <h2 class="contact__title">Contact Me</h2>
-        <p class="contact__text">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.</p>
-        <p class="contact__text">122 33rd Street East<br>Saskatoon, SK<br>S7K 1R9</p>
-        <table class="contact__table">
-          <tr class="contact__row">
-            <td class="contact__data  contact__data--cap">Email:</td>
-            <td class="contact__data">info@focal.com</td>
-          </tr>
-          <tr class="contact__row">
-            <td class="contact__data  contact__data--cap">Phone:</td>
-            <td class="contact__data">1-306-222-2323</td>
-          </tr>
-        </table>
+
+    <div class="feedback">
+      <div class="feedback__container  clearfix">
+        <div class="feedback__info  contact">
+          <h2 class="contact__title">Contact Me</h2>
+          <p class="contact__text">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.</p>
+          <p class="contact__text">122 33rd Street East<br>Saskatoon, SK<br>S7K 1R9</p>
+          <table class="contact__table">
+            <tr class="contact__row">
+              <th class="contact__caption">Email:</th>
+              <td class="contact__data">info@focal.com</td>
+            </tr>
+            <tr class="contact__row">
+              <th class="contact__caption">Phone:</th>
+              <td class="contact__data">1-306-222-2323</td>
+            </tr>
+          </table>
+        </div>
+        <form class="feedback__form  mailform" method="post">
+          <label class="mailform__label" for="name">Name<span class="mailform__label--asterix">*</span></label>
+          <input class="mailform__input" type="text" name="name" id="name" required>
+          <label class="mailform__label" for="email">Email Address<span class="mailform__label--asterix">*</span></label>
+          <input class="mailform__input" type="text" name="email" id="email" required>
+          <label class="mailform__label" for="message">Message<span class="mailform__label--asterix">*</span></label>
+          <textarea class="mailform__textarea" name="message" id="message" required></textarea>
+          <input class="mailform__btn" type="submit" value="Contact Me">
+        </form>
       </div>
-      <form class="feedback">
-        <label class="feedback__label" for="name">Name *</label>
-        <input class="feedback__input" type="text" name="name" id="name">
-        <label class="feedback__label" for="email">Email Address *</label>
-        <input class="feedback__input" type="text" name="email" id="email">
-        <label class="feedback__label" for="message">Message *</label>
-        <textarea class="feedback__textarea" name="message" id="message"></textarea>
-        <input class="feedback__btn" type="submit" value="Contact Me">
-      </form>
     </div>
+
 
     <footer class="footer">
       <p class="footer__text">Copyright 2014 Focal - Built With Passion</p>
@@ -299,6 +311,7 @@
         <a class="social__link" href="#"><img class="social__img" src="img/linkedin.png" alt="LinkedIn" width="15" height="15"></a>
       </div>
     </footer>
+
 
   </div>
 </body>
